@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img width="45" align="top" src="/images/nanovim_logo.svg" />
+  <img width="100" align="top" src="/images/nanovim_logo.svg" />
   &nbsp;NanoVim
 </h1>
 
