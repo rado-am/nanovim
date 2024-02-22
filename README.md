@@ -3,4 +3,9 @@
     NanoVim
 </h1>
 
+<div>
+  <img style="vertical-align:middle" src="https://placehold.it/60x60">
+  <span style="">Works.</span>
+</div>
+
 Optimized Neovim configuration for a seamless coding experience. 
