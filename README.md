@@ -1,8 +1,3 @@
-<style>
-  table td {
-    border: none !important;
-  }
-</style>
 <h1 align="center">
     <table style="border: 0px solid white;">
       <tr>
