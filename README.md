@@ -1,9 +1,3 @@
-<style>
-    .markdown-body table td {
-        border: none;
-    }
-</style>
-
 <h1 align="center">
     <table border="0">
       <tr>
