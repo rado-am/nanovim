@@ -8,3 +8,4 @@ hi Search guibg=#434F72 guifg=#CAD3F5
 hi CurSearch guibg=#062f4a guifg=#0097fb
 hi IncSearch guibg=#0097fb guifg=#062f4a
 hi StatusLine guibg=#b1e2ff guifg=#1b1e2b
+hi MatchParen guifg=#000000 guibg=#fffb00
