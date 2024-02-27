@@ -9,4 +9,5 @@ hi CurSearch guibg=#062f4a guifg=#0097fb
 hi IncSearch guibg=#0097fb guifg=#062f4a
 hi StatusLine guibg=#b1e2ff guifg=#1b1e2b
 hi MatchParen guifg=#000000 guibg=#fffb00
-hi ErrorMsg guibg=#cc3333 guifg=#ffffff
+hi ErrorMsg guibg=#cc3333 guifg=#ffffff gui=bold
+hi Error guibg=NONE guifg=#ff4620
