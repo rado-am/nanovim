@@ -13,9 +13,5 @@ hi StatusLine guibg=#b1e2ff guifg=#1b1e2b
 hi MatchParen guifg=#000000 guibg=#fffb00
 hi ErrorMsg guibg=#cc3333 guifg=#ffffff gui=bold
 hi Error guibg=NONE guifg=#ff4620
-hi Cursor gui=NONE guifg=red guibg=white
 
-set guicursor=n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20,i:blinkwait100-blinkoff400-blinkon250-Cursor/lCursor
-
-
-
+set guicursor=n-v-c-sm:block-Cursor/lCursor,i-ci-ve:ver25,r-cr-o:hor20,i:blinkwait100-blinkoff400-blinkon250
