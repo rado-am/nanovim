@@ -1,3 +1,5 @@
+hi clear
+
 hi Normal guibg=#292c3e guifg=#ffffff80
 hi Visual guibg=#48667E
 hi Comment guifg=#6b6c6f gui=italic
@@ -11,3 +13,7 @@ hi StatusLine guibg=#b1e2ff guifg=#1b1e2b
 hi MatchParen guifg=#000000 guibg=#fffb00
 hi ErrorMsg guibg=#cc3333 guifg=#ffffff gui=bold
 hi Error guibg=NONE guifg=#ff4620
+
+set guicursor=n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20,i:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+
+
