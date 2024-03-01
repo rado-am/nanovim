@@ -1,17 +1,37 @@
+set background=dark
 hi clear
 
-hi Normal guibg=#292c3e guifg=#ffffff80
-hi Visual guibg=#48667E
-hi Comment guifg=#6b6c6f gui=italic
-hi LineNr guifg=#858585
-hi CursorLineNr guifg=#b0b1ff
-hi CursorLine guibg=#232534
-hi Search guibg=#434F72 guifg=#CAD3F5
-hi CurSearch guibg=#062f4a guifg=#0097fb
-hi IncSearch guibg=#0097fb guifg=#062f4a
-hi StatusLine guibg=#b1e2ff guifg=#1b1e2b
-hi MatchParen guifg=#000000 guibg=#fffb00
-hi ErrorMsg guibg=#cc3333 guifg=#ffffff gui=bold
-hi Error guibg=NONE guifg=#ff4620
+if exists('syntax on')
+  syntax reset
+end
 
-set guicursor=n-v-c-sm:block-Cursor/lCursor,i-ci-ve:ver25,r-cr-o:hor20,i:blinkwait100-blinkoff400-blinkon250
+let g:colors_name = "nano"
+set t_Co=256
+
+hi Normal       guibg=#282d3f guifg=#bec6d4
+hi LineNr       guifg=#4b5277
+hi CursorLineNr guifg=#9ba6e4
+hi Cursor       guibg=#7380ad guifg=#000000
+hi lCursor      guibg=#7380ad guifg=#000000
+hi CursorIM     guibg=#7380ad guifg=#000000
+hi Visual       guibg=#5e6a96
+hi CursorLine   guibg=#242938
+hi String       guifg=#bcd992
+hi Number       guifg=#e6c17d
+hi Comment      guifg=#6c769b gui=italic
+hi StatusLine   guibg=#97a6db guifg=#222634
+hi Search       guibg=#1f2330 guifg=#525c77
+hi Error        guibg=NONE    guifg=#f48771 gui=underline
+hi ErrorMsg     guibg=NONE    guifg=#cb5b5b gui=bold
+hi Pmenu        guibg=#222634 guifg=#ebeaff
+hi PmenuSel     guibg=#1f222e guifg=#ff728c
+hi PmenuSbar    guibg=#222634
+hi PmenuThumb   guibg=#383c49
+hi Conditional  guifg=#b298ff
+
+hi CurSearch guibg=#ed8796 guifg=#1e2030
+hi IncSearch guibg=#525c77 guifg=#1f2330
+hi MatchParen guifg=red guibg=red
+
+
+set guicursor=n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20,i:blinkwait100-blinkoff400-blinkon250
