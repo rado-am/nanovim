@@ -20,7 +20,7 @@ hi String       guifg=#bcd992
 hi Number       guifg=#e6c17d
 hi Comment      guifg=#6c769b gui=italic
 hi StatusLine   guibg=#97a6db guifg=#222634
-hi Search       guibg=#1f2330 guifg=#525c77
+hi Search       guibg=#3d486d guifg=#acc6ec
 hi Error        guibg=NONE    guifg=#f48771 gui=underline
 hi ErrorMsg     guibg=NONE    guifg=#cb5b5b gui=bold
 hi Pmenu        guibg=#222634 guifg=#ebeaff
@@ -29,8 +29,8 @@ hi PmenuSbar    guibg=#222634
 hi PmenuThumb   guibg=#383c49
 hi Conditional  guifg=#b298ff
 
-hi CurSearch guibg=#ed8796 guifg=#1e2030
-hi IncSearch guibg=#525c77 guifg=#1f2330
+hi CurSearch guibg=#e78284 guifg=#292c3c
+hi IncSearch guibg=#292c3c guifg=#e78284
 hi MatchParen guifg=red guibg=red
 
 
