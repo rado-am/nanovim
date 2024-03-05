@@ -28,9 +28,9 @@ hi PmenuSel     guibg=#1f222e guifg=#ff728c
 hi PmenuSbar    guibg=#222634
 hi PmenuThumb   guibg=#383c49
 hi Conditional  guifg=#b298ff
+hi CurSearch    guibg=#fac748 guifg=#282d3f
+hi IncSearch    guibg=#282d3f guifg=#fac748
 
-hi CurSearch guibg=#e78284 guifg=#292c3c
-hi IncSearch guibg=#292c3c guifg=#e78284
 hi MatchParen guifg=red guibg=red
 
 
