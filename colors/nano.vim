@@ -14,6 +14,7 @@ hi CursorLineNr guifg=#9ba6e4
 hi Cursor       guibg=#7380ad guifg=#000000
 hi lCursor      guibg=#7380ad guifg=#000000
 hi CursorIM     guibg=#7380ad guifg=#000000
+hi TermCursor   guibg=#7380ad
 hi Visual       guibg=#5e6a96
 hi CursorLine   guibg=#242938
 hi String       guifg=#bcd992
@@ -30,8 +31,6 @@ hi PmenuThumb   guibg=#383c49
 hi Conditional  guifg=#b298ff
 hi CurSearch    guibg=#fac748 guifg=#282d3f
 hi IncSearch    guibg=#282d3f guifg=#fac748
-
-hi MatchParen guifg=red guibg=red
-
+hi MatchParen   guifg=#282d3f guibg=#fac748
 
 set guicursor=n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20,i:blinkwait100-blinkoff400-blinkon250
