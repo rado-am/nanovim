@@ -38,5 +38,7 @@ hi Identifier   guifg=#acc6ec
 hi Function     guifg=#73aaff
 hi Boolean      guifg=#e6c17d
 hi Constant     guifg=#e6c17d
+hi Import       guifg=#b298ff
 
+hi typeScriptImport guifg=#b298ff
 set guicursor=n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20,i:blinkwait100-blinkoff400-blinkon250

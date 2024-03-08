@@ -6,3 +6,5 @@ vim.opt.cursorline = true -- Set cursor line to number (dont highlight all line)
 vim.opt.hlsearch = true -- Set highlight search
 vim.opt.incsearch = true -- Set incremental search
 vim.opt.fillchars = { eob = " " } -- Delete "~" symbol
+
+require("core").lazy_setup()
