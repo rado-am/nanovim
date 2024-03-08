@@ -31,11 +31,12 @@ hi IncSearch    guibg=#282d3f guifg=#fac748
 hi MatchParen   guifg=#282d3f guibg=#fac748
 
 hi Comment      guifg=#6c769b gui=italic
-hi Constant     guifg=#000000
 hi String       guifg=#bcd992
 hi Number       guifg=#e6c17d
 hi Float        guifg=#e6c17d
 hi Identifier   guifg=#acc6ec
 hi Function     guifg=#73aaff
+hi Boolean      guifg=#e6c17d
+hi Constant     guifg=#e6c17d
 
 set guicursor=n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20,i:blinkwait100-blinkoff400-blinkon250
