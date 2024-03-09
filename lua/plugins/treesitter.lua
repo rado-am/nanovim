@@ -5,9 +5,9 @@ return {
     local treesitter = require("nvim-treesitter.configs")
 
     treesitter.setup({
-      auto_install = false,
       highlight = {
         enable = true,
+	use_languagetree = true,
       },
       indent = {
         enable = true,
