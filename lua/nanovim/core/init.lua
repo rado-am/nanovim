@@ -14,7 +14,20 @@ M.lazy_setup = function()
   end
   vim.opt.rtp:prepend(lazypath)
 
-  require("lazy").setup({ { import = "nanovim.plugins" } }) -- TODO: Add custom plugins folder
+  local plugins = {
+    { import = "nanovim.plugins" },
+  }
+
+  local pathSeparator = package.config:sub(1, 1) -- Gets the OS-specific directory path separator
+  local configPath = vim.fn.stdpath('config')
+  local pluginsPath = configPath .. pathSeparator .. 'lua' .. pathSeparator .. 'plugins'
+  local stat = vim.loop.fs_stat(pluginsPath)
+
+  if stat and stat.type == "directory" then
+    table.insert(plugins, { import = "plugins" })
+  end
+
+  require("lazy").setup(plugins)
 end
 
 return M
