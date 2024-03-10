@@ -11,4 +11,4 @@ vim.opt.softtabstop = 2
 vim.opt.expandtab = true
 vim.opt.smartindent = true
 
-require("core").lazy_setup()
+require("nanovim.core").lazy_setup()

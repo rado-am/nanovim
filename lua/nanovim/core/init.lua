@@ -14,7 +14,7 @@ M.lazy_setup = function()
   end
   vim.opt.rtp:prepend(lazypath)
 
-  require("lazy").setup({ { import = "plugins" } })
+  require("lazy").setup({ { import = "nanovim.plugins" } }) -- TODO: Add custom plugins folder
 end
 
 return M

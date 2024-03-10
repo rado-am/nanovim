@@ -17,10 +17,11 @@ return {
             ["<esc>"] = actions.close
           }
         },
-        file_ignore_patterns = { "node_modules" },
+        file_ignore_patterns = { "node_modules" }, -- TODO move to settings folder
       }    
     })
 
+    -- TODO: move keymaps to settings folder
     vim.keymap.set("n", "<cs-f>", builtin.live_grep, {})
     vim.keymap.set("n", "<C-p>", builtin.find_files, {})
 
