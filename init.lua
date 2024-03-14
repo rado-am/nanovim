@@ -12,3 +12,4 @@ vim.opt.expandtab = true
 vim.opt.smartindent = true
 
 require("nanovim.core").lazy_setup()
+require("settings.mapping")

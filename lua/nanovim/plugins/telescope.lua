@@ -21,10 +21,6 @@ return {
       }    
     })
 
-    -- TODO: move keymaps to settings folder
-    vim.keymap.set("n", "<cs-f>", builtin.live_grep, {})
-    vim.keymap.set("n", "<C-p>", builtin.find_files, {})
-
     telescope.load_extension("fzf")
   end
 }
