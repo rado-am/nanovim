@@ -17,7 +17,7 @@ return {
             ["<esc>"] = actions.close
           }
         },
-        file_ignore_patterns = { "node_modules" }, -- TODO move to settings folder
+        file_ignore_patterns = { "node_modules" },
       }    
     })
 
