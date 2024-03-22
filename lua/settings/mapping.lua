@@ -11,3 +11,7 @@ map("x", "<C-c>", '"+y', { desc = "Copy selected text to system clipboard" })
 map("n", "<C-p>", "<cmd>Telescope find_files<cr>", { desc = "Search everywhere" })
 map("n", "<cs-f>", "<cmd>Telescope live_grep<cr>", { desc = "Find in files" })
 map("n", "<C-f>", "<cmd>Telescope current_buffer_fuzzy_find<CR>", { desc = "Find in current file" })
+
+-- Neo-Tree
+map("n", "<C-b>", "<cmd>Neotree toggle<cr>", { desc = "Toggle project file tree" })
+
