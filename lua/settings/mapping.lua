@@ -3,7 +3,7 @@ local map = require("nanovim.core.utils").map
 -- General
 map("n", "<C-s>", ":w<cr>", { desc = "Save file" })
 map("n", "<C-a>", "ggVG", { desc = "Select all" })
-map({"n", "i"}, "<C-d>", "<cmd>KBinder duplicate_line<cr>", { desc = "Duplicate line" })
+map({"n", "i", "v"}, "<C-d>", "<cmd>KBinder duplicate_line<cr>", { desc = "Duplicate line" })
 map("n", "<esc>", "<cmd>noh<cr>", { desc = "Clear highlights" })
 map("x", "<C-c>", '"+y', { desc = "Copy selected text to system clipboard" })
 

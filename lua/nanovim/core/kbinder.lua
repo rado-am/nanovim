@@ -12,6 +12,8 @@ local duplicate_line = function()
     vim.cmd("t.")
     -- Enter insert mode again
     vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("i", true, false, true), 'n', false)
+  elseif mode == "v" then
+    vim.api.nvim_err_writeln("Visual mode")
   end
 end
 
